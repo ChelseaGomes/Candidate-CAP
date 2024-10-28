@@ -1,0 +1,6 @@
+ID,firstName,lastName,birthDate,residence,email,department_code,contractType_code,reportsTo_ID,preferredLanguage_code,startDate,seniority,status
+11111111-1111-1111-1111-111111111111,Tom,Jones,1990-05-10,Amsterdam,tom.jones@example.com,HR,fullTime,1a2b3c4d,dutch,2023-01-01,5,true
+22222222-2222-2222-2222-222222222222,Alice,Baker,1985-08-15,Rotterdam,alice.baker@example.com,FIN,halftijds,2b3c4d5e,english,2022-07-01,10,false
+33333333-3333-3333-3333-333333333333,Bob,White,1992-03-20,Utrecht,bob.white@example.com,SAL,viervijfde,3c4d5e6f,german,2022-03-15,3,true
+44444444-4444-4444-4444-444444444444,Charlie,Green,1998-12-05,The Hague,charlie.green@example.com,MKT,drievijfde,4d5e6f7g,french,2021-05-20,2,true
+55555555-5555-5555-5555-555555555555,Eva,Black,1993-10-25,Eindhoven,eva.black@example.com,DEV,fullTime,5e6f7g8h,dutch,2020-02-01,4,false

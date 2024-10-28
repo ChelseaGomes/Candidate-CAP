@@ -19,16 +19,14 @@ context Candidate{
     }
 }
 
-entity Departments: CodeList {
-    key code: String enum {
-        humanResources = 'HR'; 
-        finance = 'FIN'; 
-        sales = 'SAL'; 
-        marketing = 'MKT'; 
-        development = 'DEV'; 
-        itDepartment = 'IT'
-    }
+entity Departments{
+    key code: String; 
+    description: String; 
+    maxCandidatesRound1: Integer; 
+    maxCandidatesRound2: Integer;
+
 }
+
 
 entity ContractTypes: CodeList{
     key code: String enum {
