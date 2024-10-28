@@ -11,9 +11,20 @@
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
-    "@cap-js/cds-types": "^0.6"
+    "@cap-js/cds-types": "^0.6",
+    "@sap/ux-specification": "UI5-1.120"
   },
   "scripts": {
-    "start": "cds-serve"
-  }
+    "start": "cds-serve",
+    "watch-candidate": "cds watch --open candidate/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-candidate-creation": "cds watch --open candidate-creation/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-candidatecreation": "cds watch --open candidatecreation/webapp/index.html?sap-ui-xx-viewCache=false"
+  },
+  "sapux": [
+    "app/candidate",
+    "app/candidate-creation",
+    "app/candidate",
+    "app/candidate-creation",
+    "app/candidatecreation"
+  ]
 }
